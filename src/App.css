@@ -39,3 +39,9 @@
 .read-the-docs {
   color: #888;
 }
+
+.question-answer {
+  border: 1px solid sienna;
+  margin: 100px;
+  padding: 15px;
+}

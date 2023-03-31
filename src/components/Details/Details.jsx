@@ -2,7 +2,8 @@ import React from "react";
 import "./Details.css";
 
 const Details = (props) => {
-  const { name, picture, icon, title, lending, time, bookmark } = props.details;
+  const { name, picture, icon, title, lending, time, bookmark, date } =
+    props.details;
 
   const handleToCart = props.handleToCart;
   const handleToBookmark = props.handleToBookmark;
@@ -13,7 +14,9 @@ const Details = (props) => {
       <div className="details-info">
         <div className="img-flex">
           <img className="details-icon" src={icon} alt="" />
-          <p>{name}</p>
+          <p>
+            {name} <br /> <small className="date-container">{date}</small>
+          </p>
         </div>
         <div className="info">
           <p>{time} min read</p>
@@ -27,7 +30,9 @@ const Details = (props) => {
       </div>
       <h2>{title}</h2>
       <p>{lending}</p>
-      <p onClick={() => handleToCart(props.details)}>Marks as read</p>
+      <p onClick={() => handleToCart(props.details)}>
+        <u>Marks as read</u>
+      </p>
     </div>
   );
 };
