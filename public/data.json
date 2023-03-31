@@ -4,7 +4,7 @@
     "index": 0,
     "picture": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y29kaW5nfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
     "icon": "https://cdn2.iconfinder.com/data/icons/flat-style-svg-icons-part-1/512/user_man_male_profile_account-512.png",
-    "age": 21,
+    "time": 5,
     "name": "Sara Craft",
     "gender": "female",
     "company": "PROSELY",
@@ -12,14 +12,15 @@
     "phone": "+1 (850) 478-2858",
     "lending": "#beginners #programmig",
     "address": "221 Whitty Lane, Brantleyville, Michigan, 7922",
-    "title": "How to get your first job as a self-taught programmer"
+    "title": "How to get your first job as a self-taught programmer",
+    "bookmark": "https://cdn-icons-png.flaticon.com/512/494/494568.png"
   },
   {
     "_id": "6425c8503a6ede21cf1dcb5a",
     "index": 1,
     "picture": "https://media.istockphoto.com/id/1363276581/photo/smart-young-students-studying-in-university-with-diverse-multiethnic-classmates-scholars.jpg?b=1&s=170667a&w=0&k=20&c=xEX-zFw0En_eTQ9EgQCBBdFr-vt-VfNr8wLz45RXf2w=",
     "icon": "https://cdn1.iconfinder.com/data/icons/bokbokstars-121-classic-stock-icons-1/512/person-man.png",
-    "age": 28,
+    "time": 7,
     "name": "Joyce Humphrey",
     "gender": "male",
     "company": "JETSILK",
@@ -27,14 +28,15 @@
     "phone": "+1 (829) 448-3030",
     "lending": "#beginners #programmig",
     "address": "882 Atlantic Avenue, Edenburg, South Carolina, 4040",
-    "title": "Plan your group prject and how does easy to work"
+    "title": "Plan your group prject and how does easy to work",
+    "bookmark": "https://cdn-icons-png.flaticon.com/512/494/494568.png"
   },
   {
     "_id": "6425c850be0f7939f161d2b6",
     "index": 2,
     "picture": "https://media.istockphoto.com/id/1356364287/photo/close-up-focus-on-persons-hands-typing-on-the-desktop-computer-backlit-keyboard-screens-show.jpg?b=1&s=170667a&w=0&k=20&c=yCgo02F66I8b1rgmnSXTyeN42k16-rti3iWszjZijWM=",
     "icon": "https://cdn-icons-png.flaticon.com/512/146/146031.png",
-    "age": 31,
+    "time": 10,
     "name": "Lambert Maxwell",
     "gender": "male",
     "company": "WAZZU",
@@ -42,14 +44,15 @@
     "phone": "+1 (885) 577-3353",
     "lending": "#beginners #programmig",
     "address": "186 Porter Avenue, Welch, Utah, 9309",
-    "title": "How to sovle your programmig error life"
+    "title": "How to sovle your programmig error life",
+    "bookmark": "https://cdn-icons-png.flaticon.com/512/494/494568.png"
   },
   {
     "_id": "6425c8508738e4abd86dc2c1",
     "index": 3,
     "picture": "https://plus.unsplash.com/premium_photo-1678565869434-c81195861939?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGNvZGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
     "icon": "https://cdn-icons-png.flaticon.com/512/219/219988.png",
-    "age": 23,
+    "time": 5,
     "name": "Ada Wolf",
     "gender": "female",
     "company": "MICROLUXE",
@@ -57,6 +60,7 @@
     "phone": "+1 (882) 430-2247",
     "lending": "#beginners #programmig",
     "address": "850 Varick Avenue, Falconaire, Alabama, 1057",
-    "title": "What does react work and its benefits"
+    "title": "What does react work and its benefits",
+    "bookmark": "https://cdn-icons-png.flaticon.com/512/494/494568.png"
   }
 ]

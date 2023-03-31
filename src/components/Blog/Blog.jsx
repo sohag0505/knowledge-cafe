@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { toast } from "react-toastify";
 import Cart from "../Cart/Cart";
 import Details from "../Details/Details";
 import "./Blog.css";
@@ -15,6 +16,7 @@ const Blog = () => {
   const handleToCart = (details) => {
     const newCart = [...cart, details];
     setCart(newCart);
+    toast.success("Successfully added to cart");
   };
 
   return (
