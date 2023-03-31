@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Details from "../Details/Details";
+import "./Blog.css";
 
 const Blog = () => {
   const [details, setDetails] = useState([]);
@@ -9,10 +10,12 @@ const Blog = () => {
       .then((data) => setDetails(data));
   }, []);
   return (
-    <div>
-      {details.map((details) => (
-        <Details details={details} key={details.index}></Details>
-      ))}
+    <div className="blog-container">
+      <div className="details-container">
+        {details.map((details) => (
+          <Details details={details} key={details.index}></Details>
+        ))}
+      </div>
     </div>
   );
 };

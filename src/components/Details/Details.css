@@ -1,0 +1,27 @@
+.details {
+  width: 830px;
+  height: 780px;
+  margin-top: 20px;
+  border: 1px solid rgb(181, 173, 173);
+  border-radius: 9px;
+  position: relative;
+  margin-left: 100px;
+}
+
+.details .details-pic {
+  height: 450px;
+  width: 830px;
+  margin-top: 2px;
+  border-radius: 8px;
+}
+
+.details-icon {
+  height: 40px;
+  width: 42px;
+  margin-top: 5px;
+}
+
+.details-info {
+  display: flex;
+  gap: 8px;
+}
