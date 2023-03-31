@@ -12,7 +12,6 @@ const Cart = (props) => {
   return (
     <div className="cart">
       <h2>Spent time on read : {total} min</h2>
-      <h5>Bookmarked Blogs : {cart.length}</h5>
     </div>
   );
 };

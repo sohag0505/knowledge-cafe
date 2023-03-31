@@ -5,6 +5,7 @@ const Details = (props) => {
   const { name, picture, icon, title, lending, time, bookmark } = props.details;
 
   const handleToCart = props.handleToCart;
+  const handleToBookmark = props.handleToBookmark;
 
   return (
     <div className="details">
@@ -16,7 +17,12 @@ const Details = (props) => {
         </div>
         <div className="info">
           <p>{time} min read</p>
-          <img className="bookmark" src={bookmark} alt="" />
+          <img
+            onClick={() => handleToBookmark(props.details)}
+            className="bookmark"
+            src={bookmark}
+            alt=""
+          />
         </div>
       </div>
       <h2>{title}</h2>
