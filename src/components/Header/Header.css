@@ -34,3 +34,40 @@
 .nav-content a:hover {
   color: rgb(14, 15, 21);
 }
+
+@media screen and (max-width: 576px) {
+  .header {
+    height: 40px;
+    background-color: #3d78a5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 2px;
+    margin-top: 2px;
+  }
+  .header h2 {
+    color: white;
+    font-size: 12px;
+  }
+  .nav-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  .nav-content a {
+    text-decoration: none;
+    color: white;
+    margin-left: 0px;
+    font-size: 8px;
+  }
+  .nav-content img {
+    height: 30px;
+    width: 32px;
+  }
+  .nav-content a:hover {
+    color: rgb(14, 15, 21);
+  }
+}

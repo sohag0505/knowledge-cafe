@@ -45,3 +45,10 @@
   margin: 100px;
   padding: 15px;
 }
+
+@media screen and (max-width: 576px) {
+  .question-answer {
+    border: 1px solid sienna;
+    margin: 15px;
+  }
+}
