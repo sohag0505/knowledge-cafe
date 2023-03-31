@@ -1,11 +1,12 @@
 .details {
   width: 830px;
-  height: 780px;
+  height: 680px;
   margin-top: 20px;
   border: 1px solid rgb(181, 173, 173);
   border-radius: 9px;
   position: relative;
   margin-left: 100px;
+  padding: 5px;
 }
 
 .details .details-pic {

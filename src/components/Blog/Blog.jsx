@@ -21,6 +21,9 @@ const Blog = () => {
     toast.success("Successfully added to cart");
   };
   const handleToBookmark = (details) => {
+    if (bookmark.find((bookmark) => bookmark._id === details._id)) {
+      return toast.warning("Already there!");
+    }
     const newBookmark = [...bookmark, details];
     setBookmark(newBookmark);
     toast.success("Successfully added to cart");
