@@ -60,9 +60,8 @@
     border-radius: 2px;
     position: relative;
     padding: 5px;
-    margin-left: 0;
-    margin-left: 15px;
-    padding: 10px;
+    margin: 0px auto;
+    margin-top: 5px;
   }
   .details-icon {
     height: 30px;
